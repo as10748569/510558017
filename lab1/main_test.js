@@ -16,8 +16,8 @@ test("Test MyClass's getStudentById", () => {
     // TODO
 	const myClass = new MyClass();
 	const student1 = new Student("John");
-	const student2 = new Student("Alice");
-	const student3 = new Student("Bob");
+	const student2 = new Student("Jane");
+	const student3 = new Student("Doe");
 	myClass.addStudent(student1);
 	myClass.addStudent(student2);
 	myClass.addStudent(student3);
@@ -29,8 +29,8 @@ test("Test MyClass's getStudentById", () => {
 test("Test Student's setName", () => {
     // TODO
 	const student = new Student("John");
-	student.setName("Alice");
-	assert.strictEqual(student.getName(), "Alice");
+	student.setName("Smith");
+	assert.strictEqual(student.getName(), "Smith");
 });
 
 test("Test Student's getName", () => {
